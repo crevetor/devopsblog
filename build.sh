@@ -34,7 +34,7 @@ cd $WORKSPACE
 pip install -r $REQ
 python devopsblog/manage.py syncdb --noinput
 python devopsblog/manage.py migrate
-python devopsblog/manage.py collectstatic --noinput
+#python devopsblog/manage.py collectstatic --noinput
 
 if [ "$TYPE" = "jenkins" ]
 then
