@@ -24,7 +24,7 @@ then
     REQ="dev-requirements.txt"
 fi
 
-source ../env.sh
+source $WORKSPACE/../env.sh
 if [ "$TYPE" != "dev" ]
 then
     source $WORKSPACE/../env/bin/activate
