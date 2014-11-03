@@ -1,0 +1,3 @@
+django
+django-getenv
+dj-database-url
